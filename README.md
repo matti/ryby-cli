@@ -2,13 +2,13 @@
 
 Creates Gemfile, .ruby-version and .ruby-gemset
 
-## Installation
+## Local installation
 
     $ rake install
 
 ## Usage
 
-    $ ryby newproject 2.2.2
+    $ ryby init newproject 2.2.2
 
 ## Contributing
 
