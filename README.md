@@ -1,30 +1,20 @@
-# Lol::Cli
+# lol-cli
 
-TODO: Write a gem description
+Basic Ruby CLI with Thor. Adapted from http://willschenk.com/making-a-command-line-utility-with-gems-and-thor/
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'lol-cli'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install lol-cli
+    $ rake install
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ lol version
+    $ lol greeter hello John
+    $ lol greeter hello John --upcase
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/lol-cli/fork )
+1. Fork it ( https://github.com/matti/lol-cli/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

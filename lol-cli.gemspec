@@ -5,7 +5,7 @@ require 'lol/cli/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "lol-cli"
-  spec.version       = Lol::Cli::VERSION
+  spec.version       = Lol::CLI::VERSION
   spec.authors       = ["Matti Paksula"]
   spec.email         = ["matti.paksula@iki.fi"]
   spec.summary       = %q{Basic CLI with Thor}

@@ -1,7 +1,7 @@
-require "lol/cli/version"
+require "thor"
+require "lol/cli/base"
 
 module Lol
-  module Cli
-    # Your code goes here...
+  module CLI
   end
 end
