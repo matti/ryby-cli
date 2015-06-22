@@ -16,8 +16,8 @@ module Ryby
 
         FileUtils.mkdir_p name
         File.write File.join(name, "Gemfile"), "source 'https://rubygems.org'\n"
-        File.write File.join(name, ".ruby-version\n"), version
-        File.write File.join(name, ".ruby-gemset\n"), name
+        File.write File.join(name, ".ruby-version"), "#{version}\n"
+        File.write File.join(name, ".ruby-gemset"), "#{name}\n"
       end
     end
   end
