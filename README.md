@@ -1,6 +1,6 @@
-# lol-cli
+# ryby-cli
 
-Basic Ruby CLI with Thor. Adapted from http://willschenk.com/making-a-command-line-utility-with-gems-and-thor/
+Creates Gemfile, .ruby-version and .ruby-gemset
 
 ## Installation
 
@@ -8,13 +8,11 @@ Basic Ruby CLI with Thor. Adapted from http://willschenk.com/making-a-command-li
 
 ## Usage
 
-    $ lol version
-    $ lol greeter hello John
-    $ lol greeter hello John --upcase
+    $ ryby newproject 2.2.2
 
 ## Contributing
 
-1. Fork it ( https://github.com/matti/lol-cli/fork )
+1. Fork it ( https://github.com/matti/ryby-cli/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

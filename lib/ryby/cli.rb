@@ -1,7 +1,7 @@
 require "thor"
-require "lol/cli/base"
+require "ryby/cli/base"
 
-module Lol
+module Ryby
   module CLI
   end
 end

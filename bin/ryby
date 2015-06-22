@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'ryby/cli'
+
+Ryby::CLI::Base.start( ARGV )

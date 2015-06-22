@@ -1,15 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'lol/cli/version'
+require 'ryby/cli/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "lol-cli"
-  spec.version       = Lol::CLI::VERSION
+  spec.name          = "ryby-cli"
+  spec.version       = Ryby::CLI::VERSION
   spec.authors       = ["Matti Paksula"]
   spec.email         = ["matti.paksula@iki.fi"]
-  spec.summary       = %q{Basic CLI with Thor}
-  spec.description   = %q{Minimum structure for CLI and Thor}
+  spec.summary       = %q{Commands for working with Ruby}
   spec.homepage      = ""
   spec.license       = "MIT"
 

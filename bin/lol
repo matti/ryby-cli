@@ -1,5 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'lol/cli'
-
-Lol::CLI::Base.start( ARGV )
