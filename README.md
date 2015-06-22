@@ -10,6 +10,11 @@ Creates Gemfile, .ruby-version and .ruby-gemset
 
     $ ryby init newproject 2.2.2
 
+## Publishing
+
+    $ rake install
+    $ gem push pkg/ryby-cli-VERSION.gem
+
 ## Contributing
 
 1. Fork it ( https://github.com/matti/ryby-cli/fork )
